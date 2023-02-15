@@ -1,7 +1,7 @@
 # yolov7-Pyside6 Image and Video Inference with UI
 
 
-This project is based on [YOLOv7](https://drive.google.com/drive/folders/15hrCM2OF30o5S4bpa5fD8nrVFm4aDjht?usp=sharing) & [PyQt5-YOLOv5](https://github.com/Javacr/PyQt5-YOLOv5)
+This project is based on [YOLOv7](https://github.com/WongKinYiu/yolov7) & [PyQt5-YOLOv5](https://github.com/Javacr/PyQt5-YOLOv5)
 
 When the GUI is launched, it will automatically detect the presence of the [YOLOv7 models](https://github.com/WongKinYiu/yolov7/releases/) that were previously added to the "ptmodel" folder.
 
@@ -45,3 +45,8 @@ The system features:
 5. paly/pause/stop
 6. show result 
 8. export detected image/video
+## Reference
+- [WongKinYiu/yolov7](https://github.com/WongKinYiu/yolov7)
+- [PyQt5-YOLOv5](https://github.com/Javacr/PyQt5-YOLOv5)
+- [YOLOv7-Predict-with-UI](https://github.com/swiminggay/YOLOv7-Predict-with-UI)
+- [Python Qt 简介](https://www.byhy.net/tut/py/gui/qt_01/)
