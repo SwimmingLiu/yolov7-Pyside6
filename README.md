@@ -17,6 +17,22 @@ The system features:
     
 ## Inferences on Image and Video
 
-![2-15-1](https://user-images.githubusercontent.com/53814462/218943807-1563fe4f-81b6-4148-89c3-71bedf5d2714.png)
-![2-15-2](https://user-images.githubusercontent.com/53814462/218943813-17173906-1ee8-4293-90ab-bf1b11bf47a8.png)
-![2-15-3](https://user-images.githubusercontent.com/53814462/218943823-bc03dadd-af32-43fb-a873-64741d8c9c6d.png)
+   <img src="https://user-images.githubusercontent.com/53814462/218943807-1563fe4f-81b6-4148-89c3-71bedf5d2714.png" width="800"/><br/>
+   <img src="https://user-images.githubusercontent.com/53814462/218943813-17173906-1ee8-4293-90ab-bf1b11bf47a8.png" width="800"/><br/>
+   <img src="https://user-images.githubusercontent.com/53814462/218943823-bc03dadd-af32-43fb-a873-64741d8c9c6d.png" width="800"/><br/>
+
+
+## Run 
+```bash
+  python main.py
+```
+
+### Function
+
+1. support image/video as input
+2. change model
+3. change IoU
+4. change confidence
+5. paly/pause/stop
+6. show result 
+8. export detected image/video
