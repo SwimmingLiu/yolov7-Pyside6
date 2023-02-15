@@ -27,9 +27,10 @@ The system features:
     conda create -n yolov7=python 
     ### requirements
     pip install -r requirements.txt
-    ### related version [Pytorch](https://pytorch.org/get-started/locally/) 
+    ### Download related version Pytorch 
     pip install torch torchvision torchaudio --extra-index-url https://download.pytorch.org/whl/cu117
 ```
+   Download [Pytorch](https://pytorch.org/get-started/locally/) 
 
 ## Run 
 ```bash
