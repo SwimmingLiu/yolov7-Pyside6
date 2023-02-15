@@ -21,13 +21,22 @@ The system features:
    <img src="https://user-images.githubusercontent.com/53814462/218943813-17173906-1ee8-4293-90ab-bf1b11bf47a8.png" width="800"/><br/>
    <img src="https://user-images.githubusercontent.com/53814462/218943823-bc03dadd-af32-43fb-a873-64741d8c9c6d.png" width="800"/><br/>
 
+## Prepare
+```bash
+    ### create virtual env 
+    conda create -n yolov7=python 
+    ### requirements
+    pip install -r requirements.txt
+    ### related version [Pytorch](https://pytorch.org/get-started/locally/) 
+    pip install torch torchvision torchaudio --extra-index-url https://download.pytorch.org/whl/cu117
+```
 
 ## Run 
 ```bash
   python main.py
 ```
 
-### Function
+## Function
 
 1. support image/video as input
 2. change model
