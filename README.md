@@ -46,8 +46,13 @@ The system features:
 5. paly/pause/stop
 6. show result 
 8. export detected image/video
+
+
 ## Reference
 - [WongKinYiu/yolov7](https://github.com/WongKinYiu/yolov7)
 - [PyQt5-YOLOv5](https://github.com/Javacr/PyQt5-YOLOv5)
 - [YOLOv7-Predict-with-UI](https://github.com/swiminggay/YOLOv7-Predict-with-UI)
 - [Python Qt 简介](https://www.byhy.net/tut/py/gui/qt_01/)
+
+## End
+Please consider giving me a star if this project is helpful to you. ⭐⭐⭐
