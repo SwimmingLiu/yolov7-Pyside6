@@ -1,0 +1,20 @@
+<RCC>
+  <qresource prefix="img">
+    <file>img/icons/circle.png</file>
+    <file>img/icons/full-moon.png</file>
+    <file>img/icons/down-arrow.png</file>
+    <file>img/icons/up-arrow.png</file>
+    <file>img/icons/close.png</file>
+    <file>img/icons/export.png</file>
+    <file>img/icons/folder.png</file>
+    <file>img/icons/import.png</file>
+    <file>img/icons/minus-square-outlined-button.png</file>
+    <file>img/icons/play-button.png</file>
+    <file>img/icons/recognition.png</file>
+    <file>img/icons/scanner.png</file>
+    <file>img/icons/search-data.png</file>
+    <file>img/icons/square.png</file>
+    <file>img/icons/stop-button.png</file>
+    <file>img/下拉.png</file>
+  </qresource>
+</RCC>
