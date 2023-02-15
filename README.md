@@ -46,7 +46,8 @@ The system features:
 5. paly/pause/stop
 6. show result 
 8. export detected image/video
-
+## Demo Video
+Check in [YOLOv7检测界面-Pyside6-GUI](https://www.bilibili.com/video/BV1oy4y1f7t1/?spm_id_from=333.999.0.0)
 
 ## Reference
 - [WongKinYiu/yolov7](https://github.com/WongKinYiu/yolov7)
