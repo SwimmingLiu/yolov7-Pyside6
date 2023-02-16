@@ -27,7 +27,7 @@
     conda create -n yolov7=python 
     ### 安装依赖
     pip install -r requirements.txt
-    ### related version [Pytorch](https://pytorch.org/get-started/locally/) 
+    ### 安装Cuda对应版本的pytorch
     pip install torch torchvision torchaudio --extra-index-url https://download.pytorch.org/whl/cu117
 ```
 
