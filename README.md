@@ -26,7 +26,7 @@ The system features:
 ## Prepare
 ```bash
     ### create virtual env 
-    conda create -n yolov7=python 
+    conda create -n yolov7 python=3.9 
     ### requirements
     pip install -r requirements.txt
     ### Download related version Pytorch 
