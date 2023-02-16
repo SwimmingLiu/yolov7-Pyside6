@@ -1,4 +1,6 @@
-# yolov7-Pyside6 Image and Video Inference with UI
+# yolov7-Pyside6 Image and Video Inference with UI 
+
+View Chinese Version [here](https://github.com/SwimmingLiu/yolov7-Pyside6/blob/main/README-CN.md)
 
 
 This project is based on [YOLOv7](https://github.com/WongKinYiu/yolov7) & [PyQt5-YOLOv5](https://github.com/Javacr/PyQt5-YOLOv5)
