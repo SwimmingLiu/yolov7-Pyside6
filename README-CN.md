@@ -24,7 +24,7 @@
 ## 准备工作
 ```bash
     ### 创建虚拟环境
-    conda create -n yolov7=python 
+    conda create -n yolov7 python=3.9  
     ### 安装依赖
     pip install -r requirements.txt
     ### 安装Cuda对应版本的pytorch
