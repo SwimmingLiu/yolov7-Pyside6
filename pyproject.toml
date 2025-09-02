@@ -1,0 +1,99 @@
+[tool.poetry]
+name = "yolo-detection-app"
+version = "0.1.0"
+description = "YOLOv7 Object Detection Application with GUI"
+authors = ["Your Name <your.email@example.com>"]
+readme = "README.md"
+packages = [{include = "lib"}, {include = "models"}, {include = "utils"}]
+
+[tool.poetry.dependencies]
+python = ">=3.9,<3.14"
+PySide6 = "*"
+matplotlib = ">=3.2.2"
+numpy = ">=1.18.5,<1.24.0"
+opencv-python = ">=4.1.1"
+Pillow = ">=7.1.2"
+PyYAML = ">=5.3.1"
+requests = ">=2.23.0"
+scipy = ">=1.4.1"
+tqdm = ">=4.41.0"
+protobuf = "<4.21.3"
+tensorboard = ">=2.4.1"
+pandas = ">=1.1.4"
+seaborn = ">=0.11.0"
+ipython = "*"
+psutil = "*"
+thop = "*"
+
+[tool.poetry.group.test.dependencies]
+pytest = "^7.4.0"
+pytest-cov = "^4.1.0"
+pytest-mock = "^3.11.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.pytest.ini_options]
+minversion = "6.0"
+addopts = [
+    "-ra",
+    "--strict-markers",
+    "--strict-config",
+    "--cov=lib",
+    "--cov=models", 
+    "--cov=utils",
+    "--cov-report=term-missing",
+    "--cov-report=html",
+    "--cov-report=xml",
+    "--cov-fail-under=80"
+]
+testpaths = ["tests"]
+python_files = ["test_*.py", "*_test.py"]
+python_classes = ["Test*"]
+python_functions = ["test_*"]
+markers = [
+    "unit: marks tests as unit tests (fast, isolated)",
+    "integration: marks tests as integration tests (slower, may use external resources)",
+    "slow: marks tests as slow running"
+]
+
+[tool.coverage.run]
+source = ["lib", "models", "utils"]
+omit = [
+    "*/tests/*",
+    "*/test_*.py",
+    "*/*_test.py",
+    "*/conftest.py",
+    "*/venv/*",
+    "*/.venv/*",
+    "*/env/*",
+    "*/.env/*",
+    "*/site-packages/*",
+    "*/__pycache__/*",
+    "*/build/*",
+    "*/dist/*"
+]
+
+[tool.coverage.report]
+exclude_lines = [
+    "pragma: no cover",
+    "def __repr__",
+    "if self.debug:",
+    "if settings.DEBUG",
+    "raise AssertionError",
+    "raise NotImplementedError",
+    "if 0:",
+    "if __name__ == .__main__.:",
+    "class .*\\bProtocol\\):",
+    "@(abc\\.)?abstractmethod"
+]
+show_missing = true
+precision = 2
+
+[tool.coverage.html]
+directory = "htmlcov"
+
+[tool.coverage.xml]
+output = "coverage.xml"
